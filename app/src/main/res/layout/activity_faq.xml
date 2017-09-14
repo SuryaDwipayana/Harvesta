@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="#33afe3"
+        android:gravity="center"
+        android:text="Pertanyaan Umum"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ToggleButton
+                android:id="@+id/tb_pertanyaan1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:background="#33afe3"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="Show dan Hide"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textOff="Apa itu Harvesta ? + "
+                android:textOn="Apa itu Harvesta ? -" />
+
+            <TextView
+                android:id="@+id/tv_jawaban1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Harvesta adalah aplikasi pembantu mengontrol ketersediaan pangan melalui system hulu ke hilir untuk mengoptimalkan produktivitas petani sebagai pendukung kesejahteraan petani."
+                android:textColor="#000000" />
+
+            <ToggleButton
+                android:id="@+id/tb_pertanyaan2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="#33afe3"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="Show dan Hide"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textOff="Bagaimana cara kerja sistem Harvesta ? +"
+                android:textOn="Bagaimana cara kerja sistem Harvesta ? -" />
+
+            <TextView
+                android:id="@+id/tv_jawaban2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Di Harvesta anda bisa beternak secara online yang kemudian mendapatkan profit sesuai pertumbuhan bobot hewan ternak. Secara umum prosesnya adalah: \n\n
+1. Memilih dan membeli ternak (saat ini hanya lele dan jamur tiram).
+Ada akan membayar biaya meliputi bibit ternak, biaya perawatan dan pakan selama kontrak kerja. \n\n
+2. Panen dan mendapatkan keuntungan
+Dari total panen unit ternak  dan pertanian, anda akan mendapatkan hasil dari selisih harga jual dan harga beli. Besarannya bervariasi tergantung kondisi pasar selama periode panen.
+"
+                android:textColor="#000000" />
+
+            <ToggleButton
+                android:id="@+id/tb_pertanyaan3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="#33afe3"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="Show dan Hide"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textOff="Apakah semua transaksi saya di Harvesta aman ? +"
+                android:textOn="Apakah semua transaksi saya di Harvesta aman ? -" />
+
+            <TextView
+                android:id="@+id/tv_jawaban3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Aman. Kami menjamin keamanan transaksi Anda karena menggunakan pembayaran online yang bekerja sama dengan Midtrans untk mengelola seluruh transaksi yang terjadi."
+                android:textColor="#000000" />
+
+            <ToggleButton
+                android:id="@+id/tb_pertanyaan4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="#33afe3"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="Show dan Hide"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textOff="Apa saya bisa mengecek keadaan unit investasi sayaa ? +"
+                android:textOn="Apa saya bisa mengecek keadaan unit investasi saya ? -" />
+
+            <TextView
+                android:id="@+id/tv_jawaban4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Bisa, anda dapat berkunjung ke lokasi tempat unit investasi anda di besarkan. Nama pemilik akan tercantum dalam unit investasi dan lokasi terletak pada deskripsi unit investasi."
+                android:textColor="#000000" />
+
+            <ToggleButton
+                android:id="@+id/tb_pertanyaan5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="#33afe3"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="Show dan Hide"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textOff="Bagaimana saya mengetahui waktu panen dan keuntungan yang saya dapatkan ? +"
+                android:textOn="Bagaimana saya mengetahui waktu panen dan keuntungan yang saya dapatkan ? -" />
+
+            <TextView
+                android:id="@+id/tv_jawaban5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Anda dapat mengetahui waktu panen pada menu statitik, pada menu tersebut tercantum grafik keuntungan setiap bulan dan total keuntungan unit investasi anda."
+                android:textColor="#000000" />
+
+            <ToggleButton
+                android:id="@+id/tb_pertanyaan6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="#33afe3"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="Show dan Hide"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textOff="Apa saya dapat mencairkan uang investasi ? +"
+                android:textOn="Apa saya dapat mencairkan uang investasi ? -" />
+
+            <TextView
+                android:id="@+id/tv_jawaban6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Iya  dapat, anda dapat mencairkan dana investasi anda pada bagian request pencairan pada menu statistik, bagian bawah grafik keuntungan."
+                android:textColor="#000000" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_kekp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menuju Kebijakan Privasi"/>
+
+
+</LinearLayout>

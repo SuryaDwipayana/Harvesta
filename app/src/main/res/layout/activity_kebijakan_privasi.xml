@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="#33afe3"
+        android:gravity="center"
+        android:text="Kebijakan Privasi"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ToggleButton
+                android:id="@+id/tb_pertanyaan1kp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:background="#33afe3"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="Show dan Hide"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textOff="Mengapa kami mengumpulkan data anda ? + "
+                android:textOn="Mengapa kami mengumpulkan data anda ? -" />
+
+            <TextView
+                android:id="@+id/tv_jawaban1kp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Kami menyediakan produk dan layanan untuk membantu Anda dalam berinvestasi  ternak online.  Kami menggunakan data tersebut untuk memberikan dukungan, mengirimkan pemberitahuan, dan laporan perkembangan ternak."
+                android:textColor="#000000" />
+
+            <ToggleButton
+                android:id="@+id/tb_pertanyaan2kp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="#33afe3"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="Show dan Hide"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textOff="Bagaimana kami mengumpulkan data anda ? +"
+                android:textOn="Bagaimana kami mengumpulkan data anda ? -" />
+
+            <TextView
+                android:id="@+id/tv_jawaban2kp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Kami mengumpulkan informasi dengan 2 cara: melalui login gmail dan login facebook serta mengisi data diri pada menu profile."
+                android:textColor="#000000" />
+
+            <ToggleButton
+                android:id="@+id/tb_pertanyaan3kp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="#33afe3"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="Show dan Hide"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textOff="Apakah kami membagikan data anda ? +"
+                android:textOn="Apakah kami membagikan data anda ? -" />
+
+            <TextView
+                android:id="@+id/tv_jawaban3kp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Tidak, data anda hanya digunakan untuk kepentingan internal Harvesta."
+                android:textColor="#000000" />
+
+            <ToggleButton
+                android:id="@+id/tb_pertanyaan4kp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="#33afe3"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="Show dan Hide"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textOff="Hak apa yang anda miliki atas data anda ? +"
+                android:textOn="Hak apa yang anda miliki atas data anda ? -" />
+
+            <TextView
+                android:id="@+id/tv_jawaban4kp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Anda berhak meminta kami untuk memperbarui, mengoreksi, atau menghapus data pribadi Anda setiap saat."
+                android:textColor="#000000" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_kefaq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menuju FAQ" />
+
+</LinearLayout>
